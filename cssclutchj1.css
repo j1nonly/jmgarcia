@@ -1,0 +1,68 @@
+body {
+    background-color: #16365d;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 960px;
+    background-color: black;
+    padding: 20px;
+    border: 2px solid #FFD700;
+    box-sizing: border-box;
+}
+
+.header, .media, .format-text, .controls, .galleries {
+    background-color: red;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.content, .media-content, .format-text-content, .controls-content, .galleries-content {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.content p:nth-child(2) {
+    background-color: yellow;
+    color: black;
+    display: inline;
+}
+
+.media-content p:nth-child(1) span {
+    background-color: yellow;
+    color: black;
+}
+
+.format-text-content p:nth-child(1) span {
+    background-color: yellow;
+    color: black;
+}
+
+.format-text-content p:nth-child(2) span {
+    background-color: yellow;
+    color: black;
+}
+
+.controls-content p:nth-child(1) span {
+    background-color: yellow;
+    color: black;
+}
+
+.galleries-content p:nth-child(1) span {
+    background-color: yellow;
+    color: black;
+}
